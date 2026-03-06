@@ -1,0 +1,20 @@
+# Build artifacts
+.build/
+*.xcodeproj/
+DerivedData/
+
+# App bundle (users build locally)
+*.app
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude
+.claude/
+
+# Plans (internal)
+Plans/
+
+# User config (created at install time)
+# Don't ship personal settings
