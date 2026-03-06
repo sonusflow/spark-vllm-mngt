@@ -1,4 +1,5 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngtn# Copyright (c) 2026 sonusflow. MIT License.
 # Recipe: Nemotron 3 Nano NVFP4
 # Model: nvidia/Nemotron-3-Nano-NVFP4
 # Category: Recipes — LLM

@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Utility: Stop Cluster
 # Stops all running vLLM containers
 source "$(dirname "$0")/../_common.sh"

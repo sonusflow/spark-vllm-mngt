@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Recipe: Qwen3 Coder Next FP8
 # Model: Qwen/Qwen3-Coder-Next-FP8
 # Category: Recipes — Coding

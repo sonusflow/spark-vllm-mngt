@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Utility: Health Check
 # Checks if vLLM API is responding on the configured port
 source "$(dirname "$0")/../_common.sh"

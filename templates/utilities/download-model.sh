@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Utility: Download Model
 # Downloads a HuggingFace model to the DGX Spark cache
 # Usage: Set MODEL below or pass as argument

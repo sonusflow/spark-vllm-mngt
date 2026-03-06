@@ -1,3 +1,5 @@
+// spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+// Copyright (c) 2026 sonusflow. MIT License.
 // swift-tools-version: 5.9
 import PackageDescription
 

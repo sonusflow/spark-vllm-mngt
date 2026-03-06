@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Utility: Cluster Status
 # Shows running vLLM containers and Ray cluster status
 source "$(dirname "$0")/../_common.sh"

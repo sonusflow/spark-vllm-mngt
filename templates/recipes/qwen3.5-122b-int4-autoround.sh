@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Recipe: Qwen3.5 122B INT4 AutoRound
 # Model: Qwen/Qwen3.5-122B-INT4-AutoRound
 # Category: Recipes — Coding

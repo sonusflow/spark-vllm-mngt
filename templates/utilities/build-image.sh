@@ -1,4 +1,6 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngt
+# Copyright (c) 2026 sonusflow. MIT License.
 # Utility: Build vLLM Docker Image
 # Builds the vllm-node Docker image on the DGX Spark
 source "$(dirname "$0")/../_common.sh"

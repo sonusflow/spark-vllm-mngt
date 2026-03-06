@@ -1,4 +1,5 @@
 #!/bin/bash
+# spark-vllm-mngt — github.com/sonusflow/spark-vllm-mngtn# Copyright (c) 2026 sonusflow. MIT License.
 # Recipe: OpenAI GPT-OSS 120B (Cluster - 2 nodes)
 # Model: openai/gpt-oss-120b
 # Category: Recipes — LLM
