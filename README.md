@@ -32,7 +32,7 @@ Status, Stop, Logs, Health Check, Build Image, Download Model
 ## Install
 
 ```bash
-git clone https://github.com/sonusflow/vllm-mngt.git
+git clone https://github.com/sonusflow/spark-vllm-mngt.git
 cd vllm-mngt
 bash scripts/install.sh
 ```
