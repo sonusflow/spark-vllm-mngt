@@ -11,7 +11,6 @@ DerivedData/
 **/.DS_Store
 
 # IDE / tools
-.claude/
 Plans/
 
 # User config (created at install time)
