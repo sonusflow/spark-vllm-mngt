@@ -10,10 +10,8 @@ DerivedData/
 .DS_Store
 **/.DS_Store
 
-# Claude
+# IDE / tools
 .claude/
-
-# Plans (internal)
 Plans/
 
 # User config (created at install time)
