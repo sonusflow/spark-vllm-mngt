@@ -1,14 +1,14 @@
 name: VLLMManager
 options:
-  bundleIdPrefix: com.local
+  bundleIdPrefix: com.sonusflow
   deploymentTarget:
     macOS: "15.0"
   xcodeVersion: "16.0"
 settings:
   base:
     SWIFT_VERSION: "5.9"
-    CODE_SIGN_IDENTITY: "-"
-    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 8KE94TQ578
     ENABLE_HARDENED_RUNTIME: NO
     PRODUCT_NAME: "$(TARGET_NAME)"
 
@@ -22,7 +22,8 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: resources/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.local.vllm-manager
+        CODE_SIGN_ENTITLEMENTS: resources/VLLMManager.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.sonusflow.vllm-manager
         GENERATE_INFOPLIST_FILE: NO
         ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: YES
     dependencies:
@@ -39,7 +40,8 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: WidgetExtension/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.local.vllm-manager.widget
+        CODE_SIGN_ENTITLEMENTS: WidgetExtension/VLLMWidgetExtension.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.sonusflow.vllm-manager.widget
         GENERATE_INFOPLIST_FILE: NO
         LD_RUNPATH_SEARCH_PATHS:
           - "$(inherited)"

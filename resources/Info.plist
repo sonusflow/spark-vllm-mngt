@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>VLLMManager</string>
     <key>CFBundleIdentifier</key>
-    <string>com.local.vllm-manager</string>
+    <string>com.sonusflow.vllm-manager</string>
     <key>CFBundleName</key>
     <string>vLLM Manager</string>
     <key>CFBundleDisplayName</key>

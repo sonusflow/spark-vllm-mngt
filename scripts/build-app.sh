@@ -21,7 +21,7 @@ xcodebuild \
     -scheme "$APP_NAME" \
     -configuration Release \
     -derivedDataPath "$PROJECT_DIR/.build/DerivedData" \
-    CODE_SIGN_IDENTITY="-" \
+    -allowProvisioningUpdates \
     CODE_SIGNING_ALLOWED=YES \
     ONLY_ACTIVE_ARCH=NO \
     build 2>&1 | tail -20
